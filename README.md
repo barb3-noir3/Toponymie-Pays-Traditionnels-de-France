@@ -107,6 +107,6 @@ Vous pouvez copier, redistribuer, modifier et réutiliser ces données, y compri
 
 Citation suggérée :
 
-> [PSEUDONYME], *Toponymie des communes de France et pays traditionnels*, 2026, https://github.com/[PSEUDONYME]/[NOM-DU-DEPOT], licence CC BY 4.0.
+> [Barbe_Noir3], *Toponymie des communes de France et pays traditionnels*, 2026, https://github.com/[barb3_noir3]/[Toponymie-Pays-Traditionnels-de-France], licence CC BY 4.0.
 
 Les formes anciennes et les étymologies proviennent de travaux publiés, que cette base cite et résume. Pour un usage scientifique, reportez-vous toujours aux ouvrages originaux.
