@@ -82,6 +82,10 @@ Par ordre de fiabilité décroissante :
 - Fourchette (`1154-1159`) : saisir l'année la plus ancienne, préciser la fourchette en `Notes`.
 - Siècle seul : saisir la **première année du siècle** (`1201` pour le XIIIe s.), écrire « XIIIe s. » en `Notes`.
 - Datation approximative (monnaie, inscription, copie tardive) : saisir l'année la plus vraisemblable, préciser « vers » ou « copie de … » en `Notes`.
+- **Monnaies mérovingiennes** : on saisit la **borne haute** de la datation, pour ne jamais vieillir une attestation au-delà de ce que la monnaie garantit. La datation exacte est recopiée en `Notes`.
+  - monnaie datée seulement de l'« époque mérovingienne » → `750` ;
+  - monnaie datée d'un siècle (« triens mérovingien du VIIe siècle ») → dernière année du siècle : `700`.
+  - Cette règle déroge volontairement à celle du siècle seul (première année du siècle), qui vaut pour les chartes et autres documents écrits.
 - Forme connue par une **copie tardive** d'un acte ancien : on date l'acte, et non la copie, en le signalant en `Notes`.
 
 ### `Source`
@@ -119,19 +123,32 @@ Trois conséquences :
 
 ### Valeurs
 
-| Valeur | Critères | Exemples de formants |
-|---|---|---|
-| `Pré-celtique` | Racine antérieure au gaulois, généralement oronymique ou hydronymique. À employer avec prudence et toujours sourcée. | *kar-*, *alb-*, *tur-* |
-| `Gauloise` | Étymon gaulois, y compris un nom de personne gaulois + suffixe, et un mot gaulois passé en roman (règle 2) | *-ialo*, *-dunum*, *-briga*, *-magos*, *nemeton*, *cassanos* |
-| `Latine / romane` | Étymon latin ou roman (ancien français, occitan, francoprovençal, catalan), y compris les hagionymes et les formations modernes | *-acum* + NP latin, *villa*, *Saint-*, *Villeneuve* |
-| `Germanique` | Étymon francique, burgonde, wisigothique, saxon, flamand ou alémanique, y compris un nom de personne germanique + suffixe ou élément roman | NP germ. + *-acum*/*-villa*/*-court*, *-ghem*, *-hem*, *-kerque*, *-heim* |
-| `Scandinave` | Étymon norrois ou anglo-scandinave (Normandie surtout) | *-tot*, *-bec*, *-fleur*, *-dalle*, *-hogue*, NP norrois + *-ville* |
-| `Bretonne` | Étymon breton ou brittonique (Bretagne, à distinguer du gaulois) | *Plou-*, *Lan-*, *Tré-*, *Ker-*, *Loc-* |
-| `Basque` | Étymon basque ou aquitain | *Etxe-*, *Iri-*, *-berri*, *-ena* |
-| `Indéterminée` | Formes trop tardives ou trop rares, ou étymologie inconnue | — |
+La liste compte **15 strates**, qui font norme pour toutes les provinces. Pour la cartographie, elles sont regroupées en **9 grandes familles** : les strates d'une même famille se recouvrent rarement sur le terrain (scandinave, saxonne et flamande, par exemple, occupent des littoraux distincts), et le regroupement rend les cartes lisibles à l'échelle de la France. La saisie se fait toujours au niveau de la strate.
+
+| Famille | Strate | Critères | Exemples de formants |
+|---|---|---|---|
+| Pré-celtique | `Pré-celtique` | Racine pré-indo-européenne ou paléo-européenne non attribuable, généralement oronymique ou hydronymique. À employer avec prudence et toujours sourcée. | *kar-*, *kal-*, *alp-*, *alb-*, *tur-* |
+| Pré-celtique | `Ligure` | Provence, Alpes : formations ligures antiques. Toujours sourcée. | *-asc*, *-osc* (Manosque, Venasque) |
+| Pré-celtique | `Aquitaine (proto-basque)` | Gascogne, Pyrénées : racine aquitanienne antique (ancêtre du basque) | *-os*, *-ost*, *-ein* (Biscarrosse) |
+| Pré-celtique | `Ibère` | Roussillon, Languedoc occidental. Toujours sourcée. | Elne < *Illiberis* |
+| Grecque | `Grecque` | Colonies phocéennes (Marseille, Nice, Antibes, Agde) et racines grecques passées par le latin | *smaragdos* (Montmarault) |
+| Gauloise | `Gauloise` | Étymon gaulois, y compris un nom de personne gaulois + suffixe, les ethnonymes de cités et les mots gaulois passés en roman (règle 2) | *-ialo*, *-dunum*, *-briga*, *-magos*, *nemeton*, *cassanos* (chambon, varenne, breuil, ouche, chaux, verne) |
+| Latine / romane | `Latine / romane` | Étymon latin ou roman (ancien français, occitan, francoprovençal, catalan), de l'Antiquité à nos jours, y compris les hagionymes et les formations modernes | *-acum* / *-anum* + NP latin, *villa*, *Saint-*, *Villeneuve* |
+| Germanique | `Germanique` | Germanique ancien des grandes migrations (Francs, Alamans, Burgondes, Wisigoths), y compris un nom de personne germanique + suffixe ou élément roman, et les mots germaniques passés en roman (*bosc*, *skur*) | *-ing(os)* > *-ange*, *-ans*, *-ens* ; *-heim* ; NP germ. + *-iacum* / *-court* / *-ville* |
+| Germanique | `Saxonne` | Littoral boulonnais, Bessin | *-thun*, *-tun* |
+| Germanique | `Scandinave` | Étymon norrois ou anglo-scandinave (Normandie surtout) | *-tot*, *-bec*, *-fleur*, *-dal*, *-hogue*, NP norrois + *-ville* |
+| Germanique | `Flamande` | Néerlandais médiéval (Flandre maritime) | *-kerque*, *-ghem*, *-hem*, *-becque*, *-brouck* (Dunkerque) |
+| Arabe | `Arabe` | Présence arabo-berbère des VIIIe–Xe s. (Septimanie, Narbonne 719–759 ; Fraxinet, La Garde-Freinet 889–973). Racines arabes directes très rares et souvent discutées. | — |
+| Bretonne | `Bretonne` | Étymon breton ou brittonique (vieux et moyen breton), à distinguer du gaulois | *Plou-*, *Lan-*, *Tré-*, *Ker-*, *Loc-*, *Pont-* |
+| Basque | `Basque` | Formation en basque (Pays basque) | *Etxe-*, *Iri-*, *-berri*, *-ena* |
+| Indéterminée | `Indéterminée` | Formes trop tardives ou trop rares, étymologie inconnue ou trop discutée pour être classée | — |
 
 **Cas limites**
 - **Scandinave ou germanique ?** En Normandie, un nom de personne norrois relève de la strate `Scandinave`, un nom de personne francique de la strate `Germanique`. En cas de doute, on choisit `Germanique` et on signale l'hypothèse norroise en `Notes`.
+- **Flamande ou germanique ?** Une formation néerlandaise médiévale (*-kerque*, *-ghem*, *-becque*) relève de la strate `Flamande` ; un nom de personne francique + *-iacum*, *-court* ou *-ville* reste `Germanique`.
+- **Saxonne ou germanique ?** `Saxonne` est réservée aux formations en *-thun* / *-tun* du littoral boulonnais et du Bessin.
+- **Aquitaine ou basque ?** `Aquitaine (proto-basque)` désigne une racine antique ; `Basque` une formation en langue basque médiévale ou moderne.
+- **Arabe ?** Les noms en *Maure-*, *Sarrasin-* sont des mots romans : `Latine / romane`.
 - **Brittonique ou gaulois ?** Hors de Bretagne, une racine celtique est classée `Gauloise`. En Bretagne, on distingue les formations bretonnes (*Plou-*, *Lan-*…) des noms gaulois antérieurs (*-acum*, *-dunum*…).
 - **Hybride** : quand deux strates se combinent sans qu'aucun élément ne domine, on retient la plus ancienne et on explique en `Notes`.
 
@@ -203,6 +220,17 @@ Cas typiques à écarter :
 | **Gall. christ.** | *Gallia christiana* |
 | **A. N.** | Archives nationales |
 | **A. D.** + n° | Archives départementales (ex. `A. D. 03` pour l'Allier), suivi de la cote |
+| **EDH** | *Epigraphic Database Heidelberg*, Académie des sciences de Heidelberg, https://edh.ub.uni-heidelberg.de : inscriptions latines (rang 1, § 2), citées par leur numéro (ex. `EDH HD000515`). Données sous licence CC BY-SA 4.0 |
+
+### Référentiel des noms de personnes attestés
+
+Pour les noms formés sur un nom de personne (*-acum*, *-anum*, *villa*, *curtis*…), le dépôt fournit `referentiels/anthroponymes_edh.csv` : les gentilices et surnoms des inscriptions latines des Gaules, des Germanies et des Alpes, tirés de l'**EDH**, avec leurs occurrences, leurs lieux de découverte et le pays traditionnel de chaque inscription.
+
+- Un nom **attesté** dans ce référentiel peut être cité comme tel (`EDH`, avec le numéro de l'inscription) ; un nom seulement **reconstitué** à partir du toponyme garde son astérisque (*\*Albinius*).
+- Le référentiel ne dit rien de la **langue** du nom : un gentilice latinisé peut porter un radical gaulois. La strate se décide avec les ouvrages du § 2 (Lacroix pour la strate gauloise).
+- Les colonnes « Forme en -(i)acum théorique » et « Indice celtique » sont des dérivations mécaniques, à titre indicatif.
+- La couverture de l'EDH est inégale (bonne en Narbonnaise et dans les Germanies, faible en Lyonnaise, en Aquitaine et en Belgique) : l'absence d'un nom ne prouve pas qu'il n'existait pas.
+- Ce fichier est sous **CC BY-SA 4.0**, comme les données de l'EDH dont il dérive (voir `referentiels/LICENCE-EDH.md`).
 
 ### Ouvrages régionaux
 

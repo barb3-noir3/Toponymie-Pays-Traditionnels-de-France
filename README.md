@@ -3,7 +3,7 @@
 Base de données ouverte qui associe chaque commune de France métropolitaine à son **pays traditionnel**, et qui recense pour chacune :
 
 - la plus ancienne **forme attestée** de son nom, avec sa date et sa source ;
-- la **strate linguistique** de son nom (pré-celtique, gauloise, latine, germanique…) ;
+- la **strate linguistique** de son nom (15 strates : pré-celtique, ligure, gauloise, latine, germanique, scandinave, flamande…) ;
 - une proposition d'**étymologie**, avec son degré de certitude ;
 - le **type de nom** (nom de personne, saint, relief, cours d'eau, végétation…).
 
@@ -22,7 +22,9 @@ L'objectif est double : permettre la **cartographie des pays traditionnels** à 
 │   ├── bourbonnais.xlsx   Copie Excel pour consultation (peut être en retard sur le CSV)
 │   └── …
 └── referentiels/
-    └── pays.csv           Liste des pays et sous-pays autorisés, par province
+    ├── pays.csv               Liste des pays et sous-pays autorisés, par province
+    ├── anthroponymes_edh.csv  Noms de personnes attestés dans les inscriptions (EDH, CC BY-SA 4.0)
+    └── LICENCE-EDH.md         Licence et attribution de ce fichier
 ```
 
 - **Les fichiers `.csv` font foi** : ce sont eux qu'il faut modifier.
@@ -59,8 +61,19 @@ L'objectif est double : permettre la **cartographie des pays traditionnels** à 
 
 ### Valeurs autorisées
 
-**Strate linguistique**
-`Pré-celtique` · `Gauloise` · `Latine / romane` · `Germanique` · `Scandinave` · `Bretonne` · `Basque` · `Indéterminée`
+**Strate linguistique** (15 valeurs, regroupées en 9 familles pour les cartes)
+
+| Famille | Strates |
+|---|---|
+| Pré-celtique | `Pré-celtique` · `Ligure` · `Aquitaine (proto-basque)` · `Ibère` |
+| Grecque | `Grecque` |
+| Gauloise | `Gauloise` |
+| Latine / romane | `Latine / romane` |
+| Germanique | `Germanique` · `Saxonne` · `Scandinave` · `Flamande` |
+| Arabe | `Arabe` |
+| Bretonne | `Bretonne` |
+| Basque | `Basque` |
+| Indéterminée | `Indéterminée` |
 
 **Certitude**
 `Sûre` · `Probable` · `Discutée`
@@ -84,6 +97,7 @@ Les définitions, les critères de choix et les cas limites sont détaillés dan
 - **Dauzat, Albert et Rostaing, Charles**, *Dictionnaire étymologique des noms de lieux en France*, Paris, Larousse, 1963
 - **Lacroix, Jacques**, *Les Noms d'origine gauloise*, Paris, Errance, 3 vol. (2003-2007), qui fait référence pour la strate gauloise
 - **Delamarre, Xavier**, *Dictionnaire de la langue gauloise*, Paris, Errance, 2001 (2e éd. 2003)
+- *Epigraphic Database Heidelberg* (EDH), Académie des sciences de Heidelberg : https://edh.ub.uni-heidelberg.de — noms de personnes attestés dans les inscriptions latines (`referentiels/anthroponymes_edh.csv`)
 
 **Sources régionales** : voir la liste par région dans [`METHODOLOGIE.md`](METHODOLOGIE.md#9-sources-de-référence-et-abréviations).
 
@@ -104,6 +118,8 @@ Vous pouvez copier, redistribuer, modifier et réutiliser ces données, y compri
 - **citer la source** (auteur et lien vers ce dépôt) ;
 - **indiquer la licence** ;
 - **signaler si des modifications ont été apportées**.
+
+**Exception : `referentiels/anthroponymes_edh.csv`** dérive des données de l'*Epigraphic Database Heidelberg* (EDH), publiées sous licence **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)**. Ce fichier reste donc sous CC BY-SA 4.0 : toute réutilisation doit citer l'EDH, et tout dérivé doit être diffusé sous la même licence (voir `referentiels/LICENCE-EDH.md`).
 
 Citation suggérée :
 
