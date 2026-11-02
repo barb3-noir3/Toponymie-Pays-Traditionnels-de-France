@@ -34,7 +34,7 @@ Par ordre de fiabilité décroissante :
 - En cas de désaccord au même rang, on retient l'avis le plus récent et le mieux argumenté. L'autre est consigné en `Notes`.
 
 **Règles de priorité par domaine**
-- **Formes anciennes** : on part de DicoTopo et des dictionnaires topographiques départementaux, que l'on complète par les documents qu'ils citent.
+- **Formes anciennes** : DicoTopo et les dictionnaires topographiques départementaux servent d'**index** : ils indiquent où chercher. On remonte ensuite au document qu'ils citent (charte, cartulaire, pouillé, terrier…) et on saisit la forme **telle qu'elle figure dans ce document ou dans son édition**, pas telle que la rapporte le dictionnaire (voir « Source » et « Utilisation de DicoTopo », § 4).
 - **Étymons gaulois** : **Jacques Lacroix fait référence** et l'emporte sur Nègre, Dauzat, Rostaing et Delamarre. Les autres avis sont consignés en `Notes` lorsqu'ils divergent.
 - **Domaines régionaux** (breton, basque, scandinave, flamand…) : les ouvrages spécialisés de la région (§ 9) priment sur les dictionnaires généraux.
 
@@ -93,6 +93,14 @@ Par ordre de fiabilité décroissante :
 - Quand une attestation est connue par un intermédiaire, on cite **le document d'origine, puis l'ouvrage qui le rapporte**, séparés par un tiret cadratin : `Cartulaire de Sauxillanges — Dauzat & Rostaing`.
 - Une source lue chez un tiers est signalée par `via` : `Nègre, TGF (via Wikipédia)`.
 - Les abréviations sont celles du § 9. Une abréviation nouvelle doit y être ajoutée dans la même Pull Request.
+
+### Utilisation de DicoTopo
+DicoTopo (CTHS / École nationale des chartes) est placé sous licence **CC BY-NC-ND 3.0 FR**. Cette licence interdit la modification et la réutilisation commerciale ; elle n'est pas compatible avec la licence de ce dépôt (CC BY-NC-SA 4.0). Pour ne pas reproduire leur base, on applique les règles suivantes :
+1. **DicoTopo est un index, pas une source de copie.** On y repère l'existence d'une attestation et le document qui la porte, puis on consulte ce document (original, édition ou dictionnaire départemental du domaine public) et on saisit la forme et la date **d'après lui**.
+2. **Aucune copie en série.** On ne récupère pas les entrées de DicoTopo par API, scraping ou copier-coller pour les verser dans la base. Le travail se fait commune par commune.
+3. **On cite le document consulté en premier** : `Cartulaire de X, acte de 1301 — via DicoTopo`. La mention `via DicoTopo` indique que la piste vient de là ; elle est obligatoire dans ce cas.
+4. **Si le document n'a pas pu être consulté** et que la forme est reprise de DicoTopo, on le signale dans `Notes` par `forme d'après DicoTopo, source non vérifiée`. Ces lignes pourront être retirées sans toucher au reste si DicoTopo en fait la demande.
+5. **Pas de reprise des interprétations de DicoTopo** (identifications, hypothèses étymologiques) sans les avoir confrontées aux ouvrages de rang 3 et sans citer ceux-ci.
 
 ### `Étymon et explication`
 - Indiquer **la langue, l'étymon et le sens** : `Nom de personne gaulois Bilius + -acos`.
