@@ -16,7 +16,7 @@ L'objectif est double : permettre la **cartographie des pays traditionnels** à 
 ```
 ├── README.md              Présentation du projet (ce fichier)
 ├── METHODOLOGIE.md        Règles de recherche, de classement et de saisie
-├── LICENSE                Licence Creative Commons Attribution 4.0
+├── LICENSE                Licence CC BY-NC-SA 4.0
 ├── donnees/
 │   ├── bourbonnais.csv    Un fichier par province ou ensemble régional
 │   ├── bourbonnais.xlsx   Copie Excel pour consultation (peut être en retard sur le CSV)
@@ -112,17 +112,20 @@ Les définitions, les critères de choix et les cas limites sont détaillés dan
 
 ## Licence et citation
 
-Les données et la documentation sont publiées sous licence **[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.fr)**.
+Les données et la documentation sont publiées sous licence **[Creative Commons Attribution - Pas d'Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr)**.
 
-Vous pouvez copier, redistribuer, modifier et réutiliser ces données, y compris à des fins commerciales, à condition de :
+Vous pouvez copier, redistribuer, modifier et réutiliser ces données, à condition de :
 - **citer la source** (auteur et lien vers ce dépôt) ;
-- **indiquer la licence** ;
-- **signaler si des modifications ont été apportées**.
+- **indiquer la licence** et signaler si des modifications ont été apportées ;
+- **ne pas en faire un usage commercial** ;
+- **diffuser vos versions modifiées sous la même licence** (CC BY-NC-SA 4.0).
+
+*Les versions de ce dépôt publiées avant le 2 novembre 2026 l'ont été sous licence CC BY 4.0. Cette licence reste valable pour les copies déjà obtenues sous ses termes.*
 
 **Exception : `referentiels/anthroponymes_edh.csv`** dérive des données de l'*Epigraphic Database Heidelberg* (EDH), publiées sous licence **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)**. Ce fichier reste donc sous CC BY-SA 4.0 : toute réutilisation doit citer l'EDH, et tout dérivé doit être diffusé sous la même licence (voir `referentiels/LICENCE-EDH.md`).
 
 Citation suggérée :
 
-> Barbe_Noir3, *Toponymie des communes de France et pays traditionnels*, 2026, https://github.com/barb3-noir3/Toponymie-Pays-Traditionnels-de-France, licence CC BY 4.0.
+> Barbe_Noir3, *Toponymie des communes de France et pays traditionnels*, 2026, https://github.com/barb3-noir3/Toponymie-Pays-Traditionnels-de-France, licence CC BY-NC-SA 4.0.
 
 Les formes anciennes et les étymologies proviennent de travaux publiés, que cette base cite et résume. Pour un usage scientifique, reportez-vous toujours aux ouvrages originaux.
