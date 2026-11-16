@@ -1,0 +1,3 @@
+# Écrit par TopoPdF : les CSV restent en LF et se comparent ligne à ligne.
+*.csv  text eol=lf
+*.md   text eol=lf

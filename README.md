@@ -17,9 +17,12 @@ L'objectif est double : permettre la **cartographie des pays traditionnels** à 
 ├── README.md              Présentation du projet (ce fichier)
 ├── METHODOLOGIE.md        Règles de recherche, de classement et de saisie
 ├── LICENSE                Licence CC BY-NC-SA 4.0
+├── pays/
+│   ├── Multien.csv        Un fichier par pays traditionnel, sous-pays compris
+│   ├── …
+│   └── avancement.csv     Pays par pays : communes, formes anciennes, étymologies, fiches vérifiées
 ├── donnees/
 │   ├── bourbonnais.csv    Un fichier par province ou ensemble régional
-│   ├── bourbonnais.xlsx   Copie Excel pour consultation (peut être en retard sur le CSV)
 │   └── …
 └── referentiels/
     ├── pays.csv               Liste des pays et sous-pays autorisés, par province
@@ -28,15 +31,27 @@ L'objectif est double : permettre la **cartographie des pays traditionnels** à 
 ```
 
 - **Les fichiers `.csv` font foi** : ce sont eux qu'il faut modifier.
+- Chaque fichier de `pays/` couvre **un pays traditionnel**, ses sous-pays compris (colonne `Sous-pays retenu`). Les fichiers de `pays/` sont en UTF-8 avec BOM, pour s'ouvrir directement dans Excel ou LibreOffice.
 - Chaque fichier de `donnees/` couvre **une province ou un ensemble régional**. Il contient toutes les communes qui s'y rattachent, quel que soit leur département actuel : le Bourbonnais, par exemple, déborde sur la Nièvre, le Puy-de-Dôme et la Saône-et-Loire.
 - Tous les fichiers ont **exactement les mêmes colonnes**, dans le même ordre, ce qui permet de les concaténer en une base nationale unique.
 
 ## Avancement
 
-| Province / ensemble | Fichier | Communes | État |
-|---|---|---|---|
-| Bourbonnais | `donnees/bourbonnais.csv` | 361 | Formes anciennes et strates saisies ; sources et certitudes à compléter |
-| *Autres provinces* | — | — | À venir |
+Toutes les communes du périmètre sont rattachées à un pays traditionnel (34 868 communes, 387 pays). Le détail pays par pays est dans [`pays/avancement.csv`](pays/avancement.csv). Pays les plus avancés :
+
+| Pays | Communes | Formes anciennes | Étymologies | Fiches vérifiées |
+|---|---|---|---|---|
+| Bocage Bourbonnais | 133 | 119 | 130 | 4 |
+| Sologne Bourbonnaise | 123 | 79 | 122 | 3 |
+| Limagne Bourbonnaise | 63 | 59 | 62 | 4 |
+| Multien | 48 | 26 | 48 | 25 |
+| Montagne Bourbonnaise | 46 | 42 | 46 | 2 |
+| Nivernais | 213 | 1 | 11 | 0 |
+| Boischaut Sud | 144 | 6 | 9 | 0 |
+| Goele | 28 | 4 | 9 | 4 |
+| **Total** | **34 868** | **1 773** | **561** | **43** |
+
+**Formes anciennes publiées** : seules les formes vérifiées sont publiées, c'est-à-dire relevées directement dans un dictionnaire topographique départemental du domaine public, une édition de cartulaire ou un autre document, ou contrôlées sur une fiche vérifiée. Les formes simplement reprises de DicoTopo ne sont pas versées dans ce dépôt (voir [`METHODOLOGIE.md`](METHODOLOGIE.md), « Utilisation de DicoTopo ») : la colonne `Forme ancienne` reste alors vide.
 
 **Périmètre** : France métropolitaine, **hors Corse**, dont la toponymie relève d'autres strates et méthodes que celles décrites ici. L'outre-mer n'est pas couvert.
 
@@ -86,7 +101,7 @@ Les définitions, les critères de choix et les cas limites sont détaillés dan
 ## Utiliser les données
 
 - **Cartographie** : le `Code INSEE` permet de joindre la base aux contours communaux (Admin Express de l'IGN, découpage OpenStreetMap…), puis de regrouper les communes par pays ou de les colorer par strate, par date d'attestation ou par type de nom.
-- **Base nationale** : concaténez tous les fichiers de `donnees/` (mêmes colonnes) ; le nom du fichier indique la province.
+- **Base nationale** : concaténez tous les fichiers de `pays/` sauf `avancement.csv` (mêmes colonnes) ; chaque commune n'y figure qu'une fois.
 - **Tableur** : à l'import, déclarez les colonnes `Code INSEE` et `Dép.` en **texte**, sinon le zéro initial disparaît (`03001` → `3001`).
 
 ## Principales sources
@@ -105,7 +120,7 @@ Les définitions, les critères de choix et les cas limites sont détaillés dan
 
 1. Lisez [`METHODOLOGIE.md`](METHODOLOGIE.md).
 2. **Signaler une erreur ou proposer une hypothèse** sans modifier les fichiers : ouvrez une *Issue* en indiquant le code INSEE, la commune et votre source.
-3. **Corriger ou compléter** : modifiez le fichier CSV de la province concernée et proposez une *Pull Request*. Une Pull Request = une commune ou un thème, avec la source dans la description.
+3. **Corriger ou compléter** : modifiez le fichier CSV du pays concerné (`pays/`) et proposez une *Pull Request*. Une Pull Request = une commune ou un thème, avec la source dans la description.
 4. **Ouvrir une nouvelle province** : proposez d'abord, dans une *Issue*, la liste de ses pays et sous-pays pour `referentiels/pays.csv`, puis créez le fichier `donnees/<province>.csv` avec les colonnes standard.
 
 **Aucune modification sans source.** Une étymologie non référencée est placée en `Notes` comme hypothèse, et jamais dans `Étymon et explication`.
