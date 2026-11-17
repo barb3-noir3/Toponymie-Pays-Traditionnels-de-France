@@ -48,7 +48,7 @@ Bocage Mayennais,73,0,0,0
 Bocage Vendéen,159,0,1,0
 Bocage Virois,19,0,0,0
 Boischaut Nord,60,2,0,0
-Boischaut Sud,144,6,9,0
+Boischaut Sud,144,9,9,0
 Bouriane,61,0,0,0
 Boutières,66,0,1,0
 Brenne,48,0,0,0
@@ -164,7 +164,7 @@ Libournais,76,0,0,0
 Lieuvin,82,1,1,0
 Limagne Bourbonnaise,63,59,62,4
 Limargue,26,0,0,0
-Littoral,413,2,1,0
+Littoral,397,2,1,0
 Livradois,135,1,1,0
 Lodévois,19,0,0,0
 Lomagne,103,0,0,0
@@ -181,7 +181,7 @@ Maremne,25,0,0,0
 Marensin,12,0,0,0
 Margeride,106,0,1,0
 Marmandais,39,0,0,0
-Marquenterre,11,0,0,0
+Marquenterre,26,0,0,0
 Marseillais,65,1,0,0
 Mauges,42,0,0,0
 Maures,28,0,0,0
@@ -204,7 +204,7 @@ Monts de Lacaune,27,0,1,0
 Monts Dôme,18,0,0,0
 Monts Dore,18,0,1,0
 Monts du Cantal,75,0,0,0
-Monts du Lyonnais,189,1,1,0
+Monts du Lyonnais,189,31,1,0
 Mortainais,40,0,0,0
 Morvan,120,0,0,0
 Multien,48,26,48,25
@@ -305,7 +305,7 @@ Plateau de Langres,118,0,0,0
 Plateau de Saint-André,143,0,0,0
 Plateau de Sainte-Maure,46,0,0,0
 Poitevin,27,0,0,0
-Ponthieu,115,1,1,0
+Ponthieu,113,1,1,0
 Porcien,98,0,0,0
 Porhoët,137,40,2,0
 Préalpes de Digne,66,0,0,0
@@ -378,7 +378,7 @@ Vexin,204,1,1,0
 Viadène,17,0,0,0
 Vicdessos,8,0,0,0
 Vignoble du Jura,71,0,0,0
-Vimeu,134,0,0,0
+Vimeu,137,0,0,0
 Vôge,82,0,0,0
 Volvestre,43,0,0,0
 Vosges Centrales,148,0,0,0
