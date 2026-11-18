@@ -54,7 +54,7 @@ Boutières,66,0,1,0
 Brenne,48,0,0,0
 Bresse,281,18,1,1
 Briançonnais,16,0,0,0
-Brie,521,26,4,0
+Brie,521,26,5,0
 Brionnais,56,1,1,0
 Brivadois,69,0,0,0
 Brulhois,21,0,0,0
@@ -116,7 +116,7 @@ Espinousse,58,0,0,0
 Esterel,7,0,0,0
 Fenouillèdes,45,0,0,0
 Fezensaguet,40,0,0,0
-Flandre française,234,230,0,0
+Flandre française,234,230,1,1
 Forêt d'Haguenau,70,0,0,0
 Forez,119,0,2,0
 Gaillacois,46,0,0,0
@@ -134,7 +134,7 @@ Grands Causses,56,0,0,0
 "Grands Lacs, forêt d'Orient",111,59,0,0
 Graves,34,0,0,0
 Grésivaudan,122,0,0,0
-Hainaut-Cambrésis,340,267,5,0
+Hainaut-Cambrésis,340,268,5,0
 Hardt,35,0,0,0
 Haut Adour,28,0,0,0
 Haut Agenais,112,0,0,0
@@ -154,7 +154,7 @@ La Haute Saintonge,134,0,0,0
 La Saintonge Romane,193,1,1,0
 Lacs et petite montagne,88,7,0,0
 Landais,72,0,0,0
-Laonnois,134,50,2,0
+Laonnois,134,54,2,0
 Larzac,52,0,0,0
 Lauragais,233,0,1,0
 Léon,111,1,1,0
@@ -217,7 +217,7 @@ Noyonnais,57,1,0,0
 Ochsenfeld,31,0,0,0
 Oisans,68,0,0,0
 Oléron,9,0,0,0
-Orxois,51,17,0,0
+Orxois,51,17,1,1
 Ouessant,2,0,0,0
 Outre Forêt,57,0,0,0
 Parisis,130,1,1,0
@@ -231,7 +231,7 @@ Pays d'Horte et Tardoire,63,0,0,0
 Pays d'Olmes,58,0,0,0
 Pays d'Olonne,29,1,1,0
 Pays d'Othe,95,12,0,0
-Pays d'Ouche,115,0,0,0
+Pays d'Ouche,115,0,1,0
 Pays d'Ussel,26,0,0,0
 Pays d'Uzerche,48,0,0,0
 Pays d'Yveline,66,0,0,0
@@ -326,7 +326,7 @@ Ruffecois,92,0,0,0
 Sabarthès,51,0,0,0
 Saint-Affricain,38,0,0,0
 Sancerrois,49,0,0,0
-Santerre,299,15,1,0
+Santerre,299,16,1,0
 Saosnois,59,0,0,0
 Saulnois,146,0,0,0
 Saumurois,60,0,0,0
@@ -336,7 +336,7 @@ Ségala,133,0,0,0
 Segréen,40,0,0,0
 Senonais,74,1,0,0
 Sisteronnais,35,1,1,0
-Soissonnais,184,79,2,0
+Soissonnais,184,83,2,0
 Sologne,106,0,2,0
 Sologne Bourbonnaise,123,79,122,3
 Suisse Normande,128,0,1,0
@@ -344,7 +344,7 @@ Tardenois,75,8,0,0
 Tarentaise,31,0,0,0
 Terrefort,22,0,0,0
 Terres Froides,208,1,1,0
-Thiérache,204,67,0,0
+Thiérache,204,68,0,0
 Thionvillois,89,0,0,0
 Thouarsais,38,0,0,0
 Thymerais,49,0,0,0
@@ -372,7 +372,7 @@ Velay,145,0,1,0
 Vendômois,62,0,0,0
 Vercors,52,0,0,0
 Verdon,38,0,0,0
-Vermandois,140,59,0,0
+Vermandois,140,61,0,0
 Vermois,144,0,0,0
 Vexin,204,1,1,0
 Viadène,17,0,0,0
