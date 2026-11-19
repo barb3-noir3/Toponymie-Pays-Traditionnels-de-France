@@ -31,15 +31,15 @@ Bassin de Decazeville,26,0,0,0
 Batz,1,0,0,0
 Baugeois,30,0,0,0
 Bazadais,50,0,0,0
-Béarn,371,1,1,0
+Béarn,371,114,1,0
 Beauce,333,1,1,0
 Beaufortain,26,0,0,0
 Beaujolais,140,0,0,0
 Beauvaisis,140,0,0,0
 Bergeracois,108,0,0,0
 Bessin,155,0,0,0
-Bigorre,140,0,0,0
-Biterrois,82,0,0,0
+Bigorre,140,1,0,0
+Biterrois,84,37,1,1
 Blayais,54,0,0,0
 Blésois,24,1,1,0
 Bocage Bourbonnais,133,119,130,4
@@ -70,13 +70,13 @@ Carladès,11,0,0,0
 Castrais,36,0,0,0
 Causses du Quercy,171,0,0,0
 Centre Var Pays Brignolais,56,0,0,0
-Cévennes,209,0,2,0
+Cévennes,209,3,2,0
 Cézallier,24,1,0,0
 Chablais Savoyard,83,0,0,0
 Chalonnais,117,0,1,0
-Chalosse,103,0,0,0
+Chalosse,103,4,0,0
 Chambaran,65,0,0,0
-Champagne,502,66,2,0
+Champagne,502,67,2,0
 Champagne Berrichonne,172,0,0,0
 Champsaur,12,0,0,0
 Charente Limousine,41,1,1,0
@@ -93,10 +93,10 @@ Comminges,299,2,2,0
 Comtat Venaissin,81,1,1,0
 Condomois,27,0,0,0
 Conflent,58,0,0,0
-Corbières,118,0,0,0
+Corbières,116,3,0,0
 Cornouaille,184,12,3,0
-Costières,46,0,0,0
-Côte des Bars,92,38,0,0
+Costières,46,1,0,0
+Côte des Bars,92,40,0,0
 Cotentin,344,2,1,0
 Couserans,75,0,0,0
 Craonnais,42,0,0,0
@@ -108,11 +108,11 @@ Dolois,104,0,0,0
 Dombes,105,28,0,0
 Domfrontais,47,0,0,0
 Dordogne Limousine,33,0,0,0
-Drôme provençale,63,0,0,0
+Drôme provençale,63,1,1,1
 Drouais,83,0,0,0
 Embrunais,23,0,0,0
 Entre Deux Mers,225,0,0,0
-Espinousse,58,0,0,0
+Espinousse,47,24,0,0
 Esterel,7,0,0,0
 Fenouillèdes,45,0,0,0
 Fezensaguet,40,0,0,0
@@ -131,10 +131,10 @@ Grand Ried,77,0,0,0
 Grande Lande,63,0,0,0
 Grande Limagne,188,4,4,0
 Grands Causses,56,0,0,0
-"Grands Lacs, forêt d'Orient",111,59,0,0
+"Grands Lacs, forêt d'Orient",111,63,0,0
 Graves,34,0,0,0
 Grésivaudan,122,0,0,0
-Hainaut-Cambrésis,340,268,5,0
+Hainaut-Cambrésis,340,269,5,0
 Hardt,35,0,0,0
 Haut Adour,28,0,0,0
 Haut Agenais,112,0,0,0
@@ -154,9 +154,9 @@ La Haute Saintonge,134,0,0,0
 La Saintonge Romane,193,1,1,0
 Lacs et petite montagne,88,7,0,0
 Landais,72,0,0,0
-Laonnois,134,54,2,0
-Larzac,52,0,0,0
-Lauragais,233,0,1,0
+Laonnois,134,55,2,0
+Larzac,52,11,0,0
+Lauragais,233,4,1,0
 Léon,111,1,1,0
 Les Combrailles,169,1,4,0
 Lévèzou,42,0,0,0
@@ -166,7 +166,7 @@ Limagne Bourbonnaise,63,59,62,4
 Limargue,26,0,0,0
 Littoral,397,2,1,0
 Livradois,135,1,1,0
-Lodévois,19,0,0,0
+Lodévois,16,7,0,0
 Lomagne,103,0,0,0
 Loudunais,47,0,0,0
 Lubéron,59,0,0,0
@@ -177,7 +177,7 @@ Maine Angevin,31,0,1,0
 Mantois,118,1,0,0
 Marais Breton Vendéen,26,0,0,0
 Marais Poitevin,64,0,0,0
-Maremne,25,0,0,0
+Maremne,25,2,0,0
 Marensin,12,0,0,0
 Margeride,106,0,1,0
 Marmandais,39,0,0,0
@@ -191,16 +191,16 @@ Mayenne Angevine,20,0,0,0
 Médoc,52,0,0,0
 Mellois,77,0,1,0
 Mercantour,18,0,0,0
-Minervois,65,0,0,0
+Minervois,56,10,0,0
 Mirebalais,19,0,0,0
 Montagne Bourbonnaise,46,42,46,2
 Montagne Limousine,89,0,0,0
-Montagne Noire,86,0,0,0
+Montagne Noire,86,4,0,0
 Montalbanais,35,0,0,0
 Montmorélien,25,0,0,0
 Montmorillonnais,40,0,0,0
-Montpelliérais,98,2,2,0
-Monts de Lacaune,27,0,1,0
+Montpelliérais,106,31,2,0
+Monts de Lacaune,27,2,1,0
 Monts Dôme,18,0,0,0
 Monts Dore,18,0,1,0
 Monts du Cantal,75,0,0,0
@@ -208,7 +208,7 @@ Monts du Lyonnais,189,31,1,0
 Mortainais,40,0,0,0
 Morvan,120,0,0,0
 Multien,48,26,48,25
-Narbonnais,11,0,0,0
+Narbonnais,26,2,0,0
 Niortais,38,0,0,0
 Nivernais,213,1,11,0
 Nogentais,37,15,0,0
@@ -221,7 +221,7 @@ Orxois,51,17,1,1
 Ouessant,2,0,0,0
 Outre Forêt,57,0,0,0
 Parisis,130,1,1,0
-Pays Basque,133,0,0,0
+Pays Basque,133,47,0,0
 Pays d'Aix,18,0,0,0
 Pays d'Albret,59,0,0,0
 Pays d'Ancenis,23,1,1,0
@@ -249,7 +249,7 @@ Pays de Fayence et Dracénois,26,0,0,0
 Pays de Foix,43,0,0,0
 Pays de Forcalquier,37,0,0,0
 Pays de Fougères,56,0,0,0
-Pays de Garrigues,219,0,0,0
+Pays de Garrigues,219,10,0,0
 Pays de Gex,37,16,0,0
 Pays de Grasse,12,0,0,0
 Pays de Gray,155,0,0,0
@@ -312,11 +312,11 @@ Préalpes de Digne,66,0,0,0
 Puisaye,78,1,1,0
 Quercy Blanc,90,1,1,0
 Queyras,7,0,0,0
-Razès,75,0,0,0
+Razès,75,3,0,0
 Revermont,62,9,0,0
 Ribéracois,52,0,0,0
 Richelais,35,0,0,0
-Rivière-Basse,80,0,0,0
+Rivière-Basse,80,4,0,0
 Rivière-Verdun,46,0,0,0
 Roannais,112,1,0,0
 Roumois et Marais Vernier,95,0,0,0
@@ -324,7 +324,7 @@ Roussillon,63,0,0,0
 Royannais,38,0,1,0
 Ruffecois,92,0,0,0
 Sabarthès,51,0,0,0
-Saint-Affricain,38,0,0,0
+Saint-Affricain,38,2,0,0
 Sancerrois,49,0,0,0
 Santerre,299,16,1,0
 Saosnois,59,0,0,0
@@ -344,7 +344,7 @@ Tardenois,75,8,0,0
 Tarentaise,31,0,0,0
 Terrefort,22,0,0,0
 Terres Froides,208,1,1,0
-Thiérache,204,68,0,0
+Thiérache,204,69,0,0
 Thionvillois,89,0,0,0
 Thouarsais,38,0,0,0
 Thymerais,49,0,0,0
@@ -353,7 +353,7 @@ Toulois,55,1,1,0
 Trégor,128,0,0,0
 Tricastin,40,0,0,0
 Trieves,23,0,0,0
-Tursan,64,0,0,0
+Tursan,64,2,0,0
 Val d'Anjou,50,0,0,0
 Val de Germigny,20,1,0,0
 Val de Loire orléanais,83,0,1,0
